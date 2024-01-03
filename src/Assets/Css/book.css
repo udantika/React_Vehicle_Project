@@ -1,0 +1,91 @@
+.bodybo {
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url('https://i.pinimg.com/736x/27/d4/ec/27d4ec1f4267ccc814a765d5e7427899.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+    
+  
+}
+.h2bo{
+  text-align: center;
+}
+
+.formbo{
+  max-width: 600px;
+  margin: 20px auto;
+
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 600px; /* Set a fixed height for the form */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Styling the scrollbar */
+form::-webkit-scrollbar {
+  width: 0;
+
+}
+
+form::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Transparent black scrollbar thumb */
+  border-radius: 6px;
+}
+
+form::-webkit-scrollbar-track {
+  background-color: transparent; /* Transparent background behind the scrollbar */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #141614;
+  color: #fff;
+  padding: 10px 15px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+button:hover {
+  background-color: #131513;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 140%; /* Adjust the width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

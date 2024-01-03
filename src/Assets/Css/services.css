@@ -1,0 +1,35 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bodyt {
+  background-image: url('https://cdn.dribbble.com/users/2357900/screenshots/4694406/media/d3e67584049299d51271a85c409e7f73.gif');
+  background-repeat: no-repeat;
+  background-size: 250vh 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardser{
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  height: 400px;
+  width: 300px;
+}
+.h2ser
+{
+  color: rgb(2, 18, 43);
+  text-align: center;
+}
+.pser{
+  color:rgb(119, 11, 13);
+}
